@@ -1,7 +1,9 @@
 # Presentation Material
 
-For the 33rd Godot Stammtisch Karlsruhe.
-https://godot-karlsruhe.de/
+For the 33rd [Godot Stammtisch Karlsruhe](https://godot-karlsruhe.de/).
+
+Also see [Meetup](https://www.meetup.com/godot-stammtisch-karlsruhe/).
+
 
 **Topic:**
 The GPU was expensive - give it something to do!
