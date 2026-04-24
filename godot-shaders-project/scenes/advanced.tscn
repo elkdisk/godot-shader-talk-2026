@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b4o3wr66dgqru"]
+
+[ext_resource type="Shader" uid="uid://bpdwqk2m5xowh" path="res://shaders/advanced.gdshader" id="1_ydhtx"]
+[ext_resource type="Texture2D" uid="uid://bcxdjhv5ewhk3" path="res://icon.svg" id="2_esaif"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_geoy4"]
+shader = ExtResource("1_ydhtx")
+
+[node name="Advanced" type="Node2D" unique_id=109356400]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=2087895032]
+material = SubResource("ShaderMaterial_geoy4")
+position = Vector2(589.00006, 324)
+scale = Vector2(5.21875, 4.6328125)
+texture = ExtResource("2_esaif")

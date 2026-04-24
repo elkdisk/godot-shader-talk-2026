@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://3bmoe6j2cl3u"]
+
+[ext_resource type="Shader" uid="uid://vf3j14frdi1x" path="res://shaders/demo3.gdshader" id="1_ln6x2"]
+[ext_resource type="Texture2D" uid="uid://e7ugl3y7t5sa" path="res://perlin_tiling.png" id="2_o10oj"]
+[ext_resource type="Texture2D" uid="uid://bcxdjhv5ewhk3" path="res://icon.svg" id="2_vrgg2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o10oj"]
+shader = ExtResource("1_ln6x2")
+shader_parameter/overlay_image1 = ExtResource("2_o10oj")
+shader_parameter/overlay_image2 = ExtResource("2_o10oj")
+shader_parameter/tint_color1 = Color(1, 1, 0.42352942, 1)
+shader_parameter/tint_color2 = Color(0.56078434, 1, 1, 1)
+shader_parameter/direction1 = Vector2(1, 1)
+shader_parameter/direction2 = Vector2(-1, 1)
+shader_parameter/speed1 = 0.1
+shader_parameter/speed2 = 0.199
+shader_parameter/alpha1 = 0.5
+shader_parameter/alpha2 = 0.5
+
+[node name="Node2D" type="Node2D" unique_id=513338633]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=681298856]
+material = SubResource("ShaderMaterial_o10oj")
+position = Vector2(594, 325.5)
+scale = Vector2(4.84375, 4.6015625)
+texture = ExtResource("2_vrgg2")
